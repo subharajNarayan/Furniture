@@ -242,8 +242,8 @@ input:focus, select:focus, option:focus, button:focus, section:focus, a:focus {
   border-color: #dfdfdf;
   background: #fff;
   width: 22px;
-  height: 23px;
-  line-height: 15px;
+  height: 22px;
+  line-height: 22px;
   text-align: center;
   padding: 0;
   color: #898989;
@@ -319,6 +319,9 @@ a:hover {
   color: #222;
 }
 
+#customer-form {
+  margin-bottom: 2rem;
+}
 #customer-form .form-group {
   font-size: 14px;
 }
@@ -369,6 +372,15 @@ a:hover {
 }
 #customer-form .form-group:nth-child(5) .col-md-6 .form-control {
   margin-bottom: 5px;
+}
+#customer-form .btn {
+  padding: 0 22px;
+  border-radius: 0 0.25rem 0.25rem 0;
+  background: #504b4b;
+  color: white;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
 }
 
 .user-register #main .custom-checkbox {
@@ -2148,6 +2160,7 @@ li {
   border-color: #222;
   color: #fff;
   padding: 8px 20px;
+  margin: 0;
   text-transform: uppercase;
   border-radius: 0 23px 23px 0 !important;
 }
@@ -2358,6 +2371,22 @@ footer .title-block {
   display: inline-block;
   padding-top: 0;
   line-height: 2.5;
+}
+.payment-image ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+.payment-image ul li {
+  width: 100px;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.15rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+.payment-image ul li img {
+  width: 100%;
+  height: auto;
 }
 
 /**
@@ -4599,7 +4628,7 @@ footer .title-block {
   margin-bottom: 0.3rem;
 }
 .sidebar-3 .sidebar-block .by-color span label {
-  margin-right: 11px;
+  margin-right: 6px;
   display: inline-block;
   width: 19px;
   height: 19px;
@@ -6348,7 +6377,7 @@ footer .title-block {
 }
 .product-cart #cart .quantity .form-control {
   width: 70%;
-  height: 46px;
+  height: 44px;
   float: left;
   border-radius: 0px;
 }

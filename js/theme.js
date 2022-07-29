@@ -353,11 +353,11 @@
         if ($('#price-filter').length) {
             $('#price-filter').slider({
                 from: 0,
-                to: 100,
+                to: 100000,
                 step: 1,
                 smooth: true,
                 round: 0,
-                dimension: '&nbsp;$',
+                dimension: '&nbsp;Rs.',
                 skin: 'plastic'
             });
         }
